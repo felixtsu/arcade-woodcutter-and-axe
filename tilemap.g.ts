@@ -18,6 +18,10 @@ namespace myTiles {
     export const tile7 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile8 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile9 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile10 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -34,6 +38,17 @@ namespace myTiles {
 . . . . . . . . . . . . 
 . . . . . . . . . . . . 
 `, [myTiles.transparency16,sprites.castle.tilePath1,sprites.castle.tilePath2,sprites.castle.tilePath3,sprites.castle.tilePath6,sprites.castle.tilePath9,sprites.castle.tilePath8,sprites.castle.tilePath7,sprites.castle.tilePath4,sprites.castle.tilePath5,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8], TileScale.Sixteen);
+            case "级别1":
+            case "级别1":return tiles.createTilemap(hex`0a000800000000000000000000000007080808080808010000030b0c090909090400000309090909090904000003090909090909040000030909090909090400000605050a0a0505020000000000000000000000`, img`
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . 2 2 . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+`, [myTiles.transparency16,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.floorLight2,sprites.dungeon.collectibleInsignia,myTiles.tile9,myTiles.tile10], TileScale.Sixteen);
         }
         return null;
     })
@@ -57,6 +72,10 @@ namespace myTiles {
             case "tile7":return tile7;
             case "myTile5":
             case "tile8":return tile8;
+            case "myTile6":
+            case "tile9":return tile9;
+            case "myTile7":
+            case "tile10":return tile10;
         }
         return null;
     })

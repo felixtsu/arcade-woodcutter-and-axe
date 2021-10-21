@@ -52,6 +52,18 @@
         "tilemapTile": true,
         "displayName": "myTile5"
     },
+    "tile9": {
+        "data": "hwQQABAAAADf3d3d/RERsfHv/u/u/9290f3u/u7u/73R3e/u7+7+vdHd3d3d3e7+0d0dERHR7b/RvczMzMztv9G9zMzMzO2/0b3MzMzM7b/RvczMzMztv9G9zMzMzO2/0b3MzMzM7b/RvczMzMztv9G9zMzMzO2/0b3MzMzM7f67u8zMzMztvw==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile6"
+    },
+    "tile10": {
+        "data": "hwQQABAAAAAdsczMzMztv9G9zMzMzO2/0b3MzMzM7b/RvczMzMztv9G9zMzMzO2/0b3MzMzM7f7RvczMzMztv9Hdu7u7u+u/0d3d3d3d3b3R3d3d3d3dvdHd3d3d3d290d3d3d3d3b3R3d3d3d3dvdHd3d3d3d290d3d3d3d3b27u7u7u7u7uw==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile7"
+    },
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
@@ -74,6 +86,27 @@
             "myTiles.tile8"
         ],
         "displayName": "level1"
+    },
+    "级别1": {
+        "id": "级别1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAwYTAwMDgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNzA4MDgwODA4MDgwODAxMDAwMDAzMGIwYzA5MDkwOTA5MDQwMDAwMDMwOTA5MDkwOTA5MDkwNDAwMDAwMzA5MDkwOTA5MDkwOTA0MDAwMDAzMDkwOTA5MDkwOTA5MDQwMDAwMDYwNTA1MGEwYTA1MDUwMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.greenOuterNorthEast",
+            "sprites.dungeon.greenOuterSouthWest",
+            "sprites.dungeon.greenOuterWest0",
+            "sprites.dungeon.greenOuterEast0",
+            "sprites.dungeon.greenOuterSouth1",
+            "sprites.dungeon.greenOuterSouthEast",
+            "sprites.dungeon.greenOuterNorthWest",
+            "sprites.dungeon.greenOuterNorth0",
+            "sprites.dungeon.floorLight2",
+            "sprites.dungeon.collectibleInsignia",
+            "myTiles.tile9",
+            "myTiles.tile10"
+        ],
+        "displayName": "级别1"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
